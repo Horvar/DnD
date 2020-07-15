@@ -1,0 +1,55 @@
+.map {
+}
+
+.map__container {
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    position: relative;
+
+    &::-webkit-scrollbar-track {
+        background-color: rgba(#000, .5);
+        &:horizontal {
+            border-radius: 0 0 10px 10px;
+        }
+        &:vertical {
+            border-radius: 0 10px 10px 0;
+        }
+    }
+
+    &::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+        background-color: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        border: 1px solid rgba(#000, .5);
+        background-color: #fff;
+    }
+    &::-webkit-scrollbar-corner {
+        opacity: 0;
+        padding: 10px;
+    }
+}
+
+.map__map {
+    position: absolute;
+    cursor: grab;
+    width: 3000px;
+    height: 2000px;
+    background: #333;
+    &:active {
+        cursor: grabbing;   
+    }
+}
+
+.map__location {
+
+}
+
+.map__modal {
+
+}

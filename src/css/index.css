@@ -1,0 +1,9 @@
+@import "~@fancyapps/fancybox/dist/jquery.fancybox.css";
+
+/* slick-carousel */
+@import "~slick-carousel/slick/slick.css";
+
+.fancybox-bg {
+    background: rgba(#000)!important;
+    opacity: .75!important;
+}
